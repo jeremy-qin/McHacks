@@ -20,6 +20,7 @@ https://drive.google.com/drive/folders/13TrbKFekr37SKCQXPwmveDHvqVim8LWD?usp=sha
 
 # How to train model on command line:
 In command line, type: python train.py
+
 The output should be something like:
 ![image](https://user-images.githubusercontent.com/75550623/150664564-86bd2b65-6de5-4aad-add3-9ebfcb2d2f4b.png)
 
