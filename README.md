@@ -13,6 +13,8 @@ To train our model, we used the Huawei MindSpore Framework on the Huawei AI Plat
 
 In order to train and evaluate the model on the command line, we directly put our create_dataset function in dataset.py that was given to us in the MindSpore guide. Below, will show how to execute them on the command line.
 
+Notebooks were also created to give a demo of how we loaded our data and how we can use it to train our model.
+
 # How to train model on command line:
 In command line, type: python train.py
 
