@@ -15,6 +15,10 @@ In order to train and evaluate the model on the command line, we directly put ou
 
 Because of an issue with the uploading of the files for the GoogLeNet on Github, we will share the drive where the folder is available. The following link will contain the folder and the files for training the model.
 
+# Prototype in Figma
+https://www.figma.com/file/yGYFRs72bNH9iegi9BB9h6/McHacks
+
+
 # Link to folder for training:
 https://drive.google.com/drive/folders/13TrbKFekr37SKCQXPwmveDHvqVim8LWD?usp=sharing 
 
