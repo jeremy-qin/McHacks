@@ -11,10 +11,18 @@ this prototype is fixed and does not have any algorithm from the model implement
 
 To train our model, we used the Huawei MindSpore Framework on the Huawei AI Platform. The training was done on a provided Huawei Ascend Processor (NPU) training server, which is enabled by Huawei Ascend CANN Compute Architecture for Neural Networks. If we wanted to create a real application, using MindSpore allows us to train deep neural networks more easily. In our case, we used MindSpore GoogleNet convolutional neural network for our binary image classification task.
 
-In order to train and evaluate the model on the command line, we directly put our create_dataset function in dataset.py that was given to us in the MindSpore guide. Below, will show how to execute them on the command line.
+In order to train and evaluate the model on the command line, we directly put our create_dataset function in dataset.py from the googlenet folder that was given to us in the MindSpore guide. Below, will show how to execute them on the command line.
+
+Because of an issue with the uploading of the files for the GoogLeNet on Github, we will share the drive where the folder is available. The following link will contain the folder and the files for training the model.
+
+# Link to folder for training:
+https://drive.google.com/drive/folders/13TrbKFekr37SKCQXPwmveDHvqVim8LWD?usp=sharing 
 
 # How to train model on command line:
 In command line, type: python train.py
+The output should be something like:
+![image](https://user-images.githubusercontent.com/75550623/150664564-86bd2b65-6de5-4aad-add3-9ebfcb2d2f4b.png)
+
 
 # How to evaluate model on command line:
 Change config.py for testing dataset.
